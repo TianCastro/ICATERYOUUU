@@ -313,7 +313,7 @@ export function HomePage({ onNavigate, user }: HomePageProps) {
               variant="outline" 
               size="lg"
               onClick={() => onNavigate('contact')}
-              className="border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3"
+              className="bg-white text-orange-600 hover:bg-gray-100 hover:text-orange-600 px-8 py-3"
             >
               Contact Us
             </Button>

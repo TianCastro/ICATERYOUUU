@@ -225,7 +225,7 @@ export function AboutPage({ onNavigate }: AboutPageProps = {}) {
               onClick={() => onNavigate?.('contact')}
               variant="outline" 
               size="lg"
-              className="border-white text-orange-600 hover:bg-gray-100 px-8 py-3"
+              className="border-white text-orange-600 hover:bg-gray-100 hover:text-orange-600 px-8 py-3"
             >
               Contact Us
             </Button>
