@@ -1,4 +1,5 @@
 import React from 'react';
+import cater from "./cater.jpg";
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 import { Badge } from '../ui/badge';
@@ -159,7 +160,7 @@ export function HomePage({ onNavigate, user }: HomePageProps) {
                   </div>
                   
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1595507059318-baf4e186c77f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxpcGlubyUyMGZvb2QlMjBjYXRlcmluZ3xlbnwxfHx8fDE3NTg0NTU4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src={cater}
                     alt="Premium Catering"
                     className="w-full h-40 object-cover rounded-lg mb-4"
                   />

@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import yasmin from "./yasmin.jpg";
+import matt from "./matt.jpg";
+import ranz from "./ranz.jpg";
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 import { Badge } from '../ui/badge';
@@ -79,7 +82,7 @@ export function ServicesPage({
         phone: "+63 917 123 4567",
         email: "delicious@catering.com"
       },
-      image: "https://images.unsplash.com/photo-1595507059318-baf4e186c77f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxpcGlubyUyMGZvb2QlMjBjYXRlcmluZ3xlbnwxfHx8fDE3NTg0NTU4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: matt,
     },
     {
       id: "2",
@@ -101,7 +104,7 @@ export function ServicesPage({
         phone: "+63 917 234 5678",
         email: "flavors@iloilo.com"
       },
-      image: "https://images.unsplash.com/photo-1474221379956-afaf88e3d760?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2F0ZXJpbmclMjBlbGVnYW50fGVufDF8fHx8MTc1ODQ1NTg0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: yasmin,
     },
     {
       id: "3",
@@ -123,7 +126,7 @@ export function ServicesPage({
         phone: "+63 917 345 6789",
         email: "premium@catering.com"
       },
-      image: "https://images.unsplash.com/photo-1755862836224-e92f7fbf625b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXRlcmluZyUyMGJ1ZmZldCUyMHNldHVwfGVufDF8fHx8MTc1ODQ1NTg0NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: ranz,
     },
     {
       id: "4",
@@ -145,7 +148,7 @@ export function ServicesPage({
         phone: "+63 917 456 7890",
         email: "modern@events.com"
       },
-      image: "https://images.unsplash.com/photo-1595507059318-baf4e186c77f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWxpcGlubyUyMGZvb2QlMjBjYXRlcmluZ3xlbnwxfHx8fDE3NTg0NTU4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: yasmin,
     },
     {
       id: "5",
